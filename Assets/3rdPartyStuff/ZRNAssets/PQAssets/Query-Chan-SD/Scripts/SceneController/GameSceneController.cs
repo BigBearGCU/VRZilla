@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class GameSceneController : MonoBehaviour {
-
+	
 	[SerializeField]
 	GameObject[] GameStages;
 
