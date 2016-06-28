@@ -43,14 +43,14 @@ public class Tail : MonoBehaviour {
 			j.angularYLimit=currentSoftJointLimit;
 
 
-			//currentSoftJointLimit=j.lowAngularXLimit;
-			//currentSoftJointLimit.limit = jointlimitXMin;
-			//j.lowAngularXLimit=currentSoftJointLimit;
+			currentSoftJointLimit=j.lowAngularXLimit;
+			currentSoftJointLimit.limit = jointlimitXMin;
+			j.lowAngularXLimit=currentSoftJointLimit;
 
 
-			currentSoftJointLimit = j.angularZLimit;
+			currentSoftJointLimit=j.highAngularXLimit;
 			currentSoftJointLimit.limit = Mathf.Max (currentJointLimit, jointlimitXMax);
-			j.angularZLimit=currentSoftJointLimit;
+			j.highAngularXLimit=currentSoftJointLimit;
 			jointlimitXMax = i * jointLimitStepValue;
 		}
 	}
