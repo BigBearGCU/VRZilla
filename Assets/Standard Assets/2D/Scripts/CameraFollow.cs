@@ -20,11 +20,13 @@ namespace UnityStandardAssets._2D
         {
             // Setting up the reference.
             m_Player = GameObject.FindGameObjectWithTag("Player").transform;
+
         }
 
 
         private bool CheckXMargin()
         {
+			
             // Returns true if the distance between the camera and the player in the x axis is greater than the x margin.
             return Mathf.Abs(transform.position.x - m_Player.position.x) > xMargin;
         }
@@ -45,7 +47,9 @@ namespace UnityStandardAssets._2D
 
         private void TrackPlayer()
         {
-            // By default the target x and y coordinates of the camera are it's current x and y coordinates.
+			transform.position = new Vector3 (m_Player.transform.position.x, m_Player.transform.position.y, m_Player.transform.position.z+10);
+
+           /* // By default the target x and y coordinates of the camera are it's current x and y coordinates.
             float targetX = transform.position.x;
             float targetY = transform.position.y;
 
@@ -53,6 +57,7 @@ namespace UnityStandardAssets._2D
             if (CheckXMargin())
             {
                 // ... the target x coordinate should be a Lerp between the camera's current x position and the player's current x position.
+				Debug.Log ("Distance to player x " + Mathf.Abs (transform.position.x - m_Player.position.x) );
                 targetX = Mathf.Lerp(transform.position.x, m_Player.position.x, xSmooth*Time.deltaTime);
             }
 
@@ -68,7 +73,12 @@ namespace UnityStandardAssets._2D
             targetY = Mathf.Clamp(targetY, minXAndY.y, maxXAndY.y);
 
             // Set the camera's position to the target position with the same z component.
-            transform.position = new Vector3(targetX, targetY, transform.position.z);
+			transform.position = new Vector3(targetX, targetY, transform.position.z);
+			Debug.Log ("Player: " + m_Player.transform.position.x + ", " + m_Player.transform.position.y+ ", " + m_Player.transform.position.z);
+			Debug.Log ("Camera: " + transform.position.x + ", " + transform.position.y+ ", " + transform.position.z);
+			*/
         }
+
+
     }
 }
