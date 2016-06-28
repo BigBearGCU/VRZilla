@@ -20,7 +20,7 @@ public class Tail : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		if (tailController == null || headController == null) {
 			return;
 		}
