@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: f85cd38b4550c4a86926fc7e3e28c00e
+timeCreated: 1467209800
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CTRL_MainMover
+    100002: godzilla_Low_V3
+    100004: //RootNode
+    100006: LArm
+    100008: LClavicle
+    100010: LFoot
+    100012: LForeArm
+    100014: LHand
+    100016: LHandEnd_ND
+    100018: LHip
+    100020: LLeg
+    100022: LPelvis
+    100024: LToe
+    100026: LToeEnd_ND
+    100028: Neck_ND
+    100030: RArm
+    100032: RClavicle
+    100034: RFoot
+    100036: RForearm
+    100038: RHand
+    100040: RHandEnd_ND
+    100042: RHip
+    100044: RLeg
+    100046: RPelvis
+    100048: RToe
+    100050: RToeEnd_ND
+    100052: Spine01
+    100054: Spine02
+    100056: Spine03
+    100058: Spine04
+    100060: SpineTail
+    100062: Tail01
+    100064: Tail02
+    100066: Tail03
+    100068: Tail04
+    100070: Tail05
+    100072: Tail06
+    100074: Tail07
+    100076: Tail08
+    100078: Tail09
+    100080: Tail10
+    100082: Tail11
+    100084: Tail12
+    100086: Tail13
+    100088: Tail14
+    100090: Tail15
+    100092: TailEnd_ND
+    100094: Texture Group
+    100096: Texture Group (2)
+    400000: CTRL_MainMover
+    400002: godzilla_Low_V3
+    400004: //RootNode
+    400006: LArm
+    400008: LClavicle
+    400010: LFoot
+    400012: LForeArm
+    400014: LHand
+    400016: LHandEnd_ND
+    400018: LHip
+    400020: LLeg
+    400022: LPelvis
+    400024: LToe
+    400026: LToeEnd_ND
+    400028: Neck_ND
+    400030: RArm
+    400032: RClavicle
+    400034: RFoot
+    400036: RForearm
+    400038: RHand
+    400040: RHandEnd_ND
+    400042: RHip
+    400044: RLeg
+    400046: RPelvis
+    400048: RToe
+    400050: RToeEnd_ND
+    400052: Spine01
+    400054: Spine02
+    400056: Spine03
+    400058: Spine04
+    400060: SpineTail
+    400062: Tail01
+    400064: Tail02
+    400066: Tail03
+    400068: Tail04
+    400070: Tail05
+    400072: Tail06
+    400074: Tail07
+    400076: Tail08
+    400078: Tail09
+    400080: Tail10
+    400082: Tail11
+    400084: Tail12
+    400086: Tail13
+    400088: Tail14
+    400090: Tail15
+    400092: TailEnd_ND
+    400094: Texture Group
+    400096: Texture Group (2)
+    4300000: godzilla_Low_V3
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: godzilla_Low_V3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CTRL_MainMover
+        weight: 1
+      - path: CTRL_MainMover/Spine01
+        weight: 1
+      - path: CTRL_MainMover/Spine01/LPelvis
+        weight: 1
+      - path: CTRL_MainMover/Spine01/LPelvis/LHip
+        weight: 1
+      - path: CTRL_MainMover/Spine01/LPelvis/LHip/LLeg
+        weight: 1
+      - path: CTRL_MainMover/Spine01/LPelvis/LHip/LLeg/LFoot
+        weight: 1
+      - path: CTRL_MainMover/Spine01/LPelvis/LHip/LLeg/LFoot/LToe
+        weight: 1
+      - path: CTRL_MainMover/Spine01/LPelvis/LHip/LLeg/LFoot/LToe/LToeEnd_ND
+        weight: 1
+      - path: CTRL_MainMover/Spine01/RPelvis
+        weight: 1
+      - path: CTRL_MainMover/Spine01/RPelvis/RHip
+        weight: 1
+      - path: CTRL_MainMover/Spine01/RPelvis/RHip/RLeg
+        weight: 1
+      - path: CTRL_MainMover/Spine01/RPelvis/RHip/RLeg/RFoot
+        weight: 1
+      - path: CTRL_MainMover/Spine01/RPelvis/RHip/RLeg/RFoot/RToe
+        weight: 1
+      - path: CTRL_MainMover/Spine01/RPelvis/RHip/RLeg/RFoot/RToe/RToeEnd_ND
+        weight: 1
+      - path: CTRL_MainMover/Spine01/Spine02
+        weight: 1
+      - path: CTRL_MainMover/Spine01/Spine02/Spine03
+        weight: 1
+      - path: CTRL_MainMover/Spine01/Spine02/Spine03/LClavicle
+        weight: 1
+      - path: CTRL_MainMover/Spine01/Spine02/Spine03/LClavicle/LArm
+        weight: 1
+      - path: CTRL_MainMover/Spine01/Spine02/Spine03/LClavicle/LArm/LForeArm
+        weight: 1
+      - path: CTRL_MainMover/Spine01/Spine02/Spine03/LClavicle/LArm/LForeArm/LHand
+        weight: 1
+      - path: CTRL_MainMover/Spine01/Spine02/Spine03/LClavicle/LArm/LForeArm/LHand/LHandEnd_ND
+        weight: 1
+      - path: CTRL_MainMover/Spine01/Spine02/Spine03/RClavicle
+        weight: 1
+      - path: CTRL_MainMover/Spine01/Spine02/Spine03/RClavicle/RArm
+        weight: 1
+      - path: CTRL_MainMover/Spine01/Spine02/Spine03/RClavicle/RArm/RForearm
+        weight: 1
+      - path: CTRL_MainMover/Spine01/Spine02/Spine03/RClavicle/RArm/RForearm/RHand
+        weight: 1
+      - path: CTRL_MainMover/Spine01/Spine02/Spine03/RClavicle/RArm/RForearm/RHand/RHandEnd_ND
+        weight: 1
+      - path: CTRL_MainMover/Spine01/Spine02/Spine03/Spine04
+        weight: 1
+      - path: CTRL_MainMover/Spine01/Spine02/Spine03/Spine04/Neck_ND
+        weight: 1
+      - path: CTRL_MainMover/Spine01/SpineTail
+        weight: 1
+      - path: CTRL_MainMover/Spine01/SpineTail/Tail01
+        weight: 1
+      - path: CTRL_MainMover/Spine01/SpineTail/Tail01/Tail02
+        weight: 1
+      - path: CTRL_MainMover/Spine01/SpineTail/Tail01/Tail02/Tail03
+        weight: 1
+      - path: CTRL_MainMover/Spine01/SpineTail/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: CTRL_MainMover/Spine01/SpineTail/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: CTRL_MainMover/Spine01/SpineTail/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: CTRL_MainMover/Spine01/SpineTail/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/Tail07
+        weight: 1
+      - path: CTRL_MainMover/Spine01/SpineTail/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/Tail07/Tail08
+        weight: 1
+      - path: CTRL_MainMover/Spine01/SpineTail/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/Tail07/Tail08/Tail09
+        weight: 1
+      - path: CTRL_MainMover/Spine01/SpineTail/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/Tail07/Tail08/Tail09/Tail10
+        weight: 1
+      - path: CTRL_MainMover/Spine01/SpineTail/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/Tail07/Tail08/Tail09/Tail10/Tail11
+        weight: 1
+      - path: CTRL_MainMover/Spine01/SpineTail/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/Tail07/Tail08/Tail09/Tail10/Tail11/Tail12
+        weight: 1
+      - path: CTRL_MainMover/Spine01/SpineTail/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/Tail07/Tail08/Tail09/Tail10/Tail11/Tail12/Tail13
+        weight: 1
+      - path: CTRL_MainMover/Spine01/SpineTail/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/Tail07/Tail08/Tail09/Tail10/Tail11/Tail12/Tail13/Tail14
+        weight: 1
+      - path: CTRL_MainMover/Spine01/SpineTail/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/Tail07/Tail08/Tail09/Tail10/Tail11/Tail12/Tail13/Tail14/Tail15
+        weight: 1
+      - path: CTRL_MainMover/Spine01/SpineTail/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/Tail07/Tail08/Tail09/Tail10/Tail11/Tail12/Tail13/Tail14/Tail15/TailEnd_ND
+        weight: 1
+      - path: godzilla_Low_V3
+        weight: 1
+      - path: Texture Group
+        weight: 1
+      - path: Texture Group (2)
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Spine01
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
