@@ -15,7 +15,7 @@ public class PlayerControl : MonoBehaviour {
 		float vertAxis = Input.GetAxis ("Vertical");
 		float horiAxis = Input.GetAxis ("Horizontal");
 
-		transform.Translate(transform.forward * (Time.deltaTime*speed*vertAxis));
-		transform.RotateAround (transform.position, Vector3.up, turnSpeed * Time.deltaTime * horiAxis);
+		transform.Translate( new Vector3(0.0f,0.0f,Time.deltaTime*speed*vertAxis));
+		transform.Rotate (0.0f,turnSpeed * Time.deltaTime * horiAxis,0.0f ,Space.Self);
 	}
 }
