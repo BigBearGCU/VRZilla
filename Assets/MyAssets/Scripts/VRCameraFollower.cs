@@ -16,7 +16,9 @@ public class VRCameraFollower : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+		if (!VRCameraGO || !neck)
+			return;
+		
 		Vector3 globalGodzillaPosition = transform.position;
 		Vector3 globalNeckPosition = neck.transform.position;
 

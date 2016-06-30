@@ -11,7 +11,7 @@ public class ZillaAnimationController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator> ();
-		InvokeRepeating("UpdateAnimation", animationUpdateRate,animationUpdateRate);
+		InvokeRepeating("UpdateAnimation", 0.0f,animationUpdateRate);
 		lastPosition = transform.position;
 	}
 
@@ -22,5 +22,6 @@ public class ZillaAnimationController : MonoBehaviour {
 		speed = diff.magnitude;
 		lastPosition = transform.position;
 		animator.SetFloat ("speed", speed);
+		Debug.Log ("Move Speed "+speed.ToString());
 	}
 }
